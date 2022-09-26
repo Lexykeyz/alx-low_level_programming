@@ -2,8 +2,8 @@
 
 /**
  * _strspn - gets lengthof a prefix substring
- * @ s : string to check
- * @ accept : string to check against
+ * @s: string to check
+ * @accept : string to check against
  *
  * Return : number of bytes of s in accept
  */
