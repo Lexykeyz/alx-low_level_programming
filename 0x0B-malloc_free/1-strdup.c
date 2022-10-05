@@ -5,6 +5,7 @@
 *space in memory, which contains a copy of the
 *string given as a parameter.
 *@str:String to be copied
+*
 *Return: NULL in case of error, pointer to allocated
 *space
 */
@@ -14,8 +15,8 @@ char *_strdup(char *str)
 	char *cpy;
 	int index, len;
 
-	if (str == NULL);
-	return (NULL);
+	if (str == NULL)
+		return (NULL);
 
 	for (index = 0; str[index]; index++)
 		len++;
@@ -32,4 +33,5 @@ char *_strdup(char *str)
 	cpy[len] = '\0';
 
 	return (cpy);
+
 }
